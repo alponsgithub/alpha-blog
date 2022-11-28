@@ -1,0 +1,42 @@
+@import "bootstrap";
+
+.navbar {
+    background-color: black !important;
+    }
+.nav-link {
+    color: rgb(166, 118, 243) !important;
+}
+
+#logo {
+    float: left;
+    font-size: 1.7em;
+    color: rgb(248, 225, 14);
+    text-transform: uppercase;
+    letter-spacing: -1px;
+    font-weight: bold;
+}
+
+#home-container {
+    margin-top: 25px;
+}
+
+
+
+/* Sticky Footer Classes */
+
+html,
+body {
+  height: 100%;
+}
+
+#page-content {
+  flex: 1 0 auto;
+  background-color: white;
+}
+
+/* Other Classes for Page Styling */
+
+body {
+  background: #007bff;
+  background: linear-gradient(to right, #0062E6, #33AEFF);
+}
